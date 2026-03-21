@@ -8,7 +8,7 @@ const Footer = () => (
         <div>
           <Link to="/" className="flex items-center gap-2 font-display text-xl font-semibold text-primary-foreground">
             <Mountain className="w-5 h-5 text-primary" />
-            TrailBharat
+            Trovia
           </Link>
           <p className="mt-3 text-sm leading-relaxed max-w-xs">
             Curated Himalayan treks across India. Every trail hand-picked, every journey unforgettable.

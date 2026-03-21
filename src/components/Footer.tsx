@@ -8,7 +8,7 @@ const Footer = () => (
         <div>
           <Link to="/" className="flex items-center gap-2 font-display text-xl font-semibold text-primary-foreground">
             <Mountain className="w-5 h-5 text-primary" />
-            TrailBharat
+            Trovia
           </Link>
           <p className="mt-3 text-sm leading-relaxed max-w-xs">
             Curated Himalayan treks across India. Every trail hand-picked, every journey unforgettable.
@@ -25,14 +25,14 @@ const Footer = () => (
         <div>
           <h4 className="font-display text-sm font-semibold text-primary-foreground mb-3">Contact</h4>
           <div className="space-y-2 text-sm">
-            <p>hello@trailbharat.com</p>
+            <p>hello@trovia.com</p>
             <p>+91 98765 43210</p>
             <p>McLeodganj, Himachal Pradesh</p>
           </div>
         </div>
       </div>
       <div className="mt-10 pt-6 border-t border-primary-foreground/10 text-xs text-primary-foreground/40 text-center">
-        © 2026 TrailBharat. All rights reserved.
+        © 2026 Trovia. All rights reserved.
       </div>
     </div>
   </footer>

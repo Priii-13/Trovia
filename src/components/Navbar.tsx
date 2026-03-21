@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="trek-container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2 font-display text-xl font-semibold text-foreground">
           <Mountain className="w-6 h-6 text-primary" />
-          TrailBharat
+          Trovia
         </Link>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium">
           <Link to="/" className="text-foreground/70 hover:text-foreground transition-colors">Treks</Link>

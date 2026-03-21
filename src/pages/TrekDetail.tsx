@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BookingModal from "@/components/BookingModal";
 import ScrollReveal from "@/components/ScrollReveal";
+import BeforeYouGo from "@/components/BeforeYouGo";
+import SpotsUrgency from "@/components/SpotsUrgency";
 import {
   Clock, MapPin, TrendingUp, Thermometer, Calendar, Mountain,
   Star, ChevronLeft, ChevronRight, ArrowLeft
@@ -108,6 +110,11 @@ const TrekDetail = () => {
               </div>
             </ScrollReveal>
 
+            {/* Before You Go Checklist */}
+            <ScrollReveal>
+              <BeforeYouGo />
+            </ScrollReveal>
+
             {/* Reviews */}
             <ScrollReveal>
               <div id="reviews">
@@ -180,6 +187,8 @@ const TrekDetail = () => {
                       <span className="tabular-nums">₹{trek.price.toLocaleString("en-IN")}</span>
                     </div>
                   </div>
+
+                  <SpotsUrgency trekId={trek.id} />
 
                   <button
                     onClick={() => setBookOpen(true)}

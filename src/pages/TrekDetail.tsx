@@ -183,6 +183,8 @@ const TrekDetail = () => {
                     </div>
                   </div>
 
+                  <SpotsUrgency trekId={trek.id} />
+
                   <button
                     onClick={() => setBookOpen(true)}
                     className="mt-6 w-full py-3.5 rounded-lg bg-primary text-primary-foreground font-medium text-sm hover:opacity-90 transition-opacity active:scale-[0.97]"

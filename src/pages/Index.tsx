@@ -72,7 +72,7 @@ const Index = () => {
         <section className="bg-primary text-primary-foreground">
           <div className="trek-container py-16 md:py-24 text-center">
             <h2 className="font-display text-3xl md:text-4xl font-bold">Ready for Your Next Adventure?</h2>
-            <p className="mt-3 text-primary-foreground/80 max-w-lg mx-auto">Join thousands of trekkers who've discovered India's most incredible trails with TrailBharat.</p>
+            <p className="mt-3 text-primary-foreground/80 max-w-lg mx-auto">Join thousands of trekkers who've discovered India's most incredible trails with Trovia.</p>
             <div className="mt-8 flex flex-wrap gap-3 justify-center">
               <a href="#treks" className="px-7 py-3.5 rounded-lg bg-primary-foreground text-primary font-medium text-sm hover:opacity-90 transition-opacity active:scale-[0.97]">
                 Browse All Treks

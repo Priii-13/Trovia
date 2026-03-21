@@ -110,6 +110,11 @@ const TrekDetail = () => {
               </div>
             </ScrollReveal>
 
+            {/* Before You Go Checklist */}
+            <ScrollReveal>
+              <BeforeYouGo />
+            </ScrollReveal>
+
             {/* Reviews */}
             <ScrollReveal>
               <div id="reviews">

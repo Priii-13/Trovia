@@ -25,7 +25,7 @@ const Footer = () => (
         <div>
           <h4 className="font-display text-sm font-semibold text-primary-foreground mb-3">Contact</h4>
           <div className="space-y-2 text-sm">
-            <p>hello@trailbharat.com</p>
+            <p>hello@trovia.com</p>
             <p>+91 98765 43210</p>
             <p>McLeodganj, Himachal Pradesh</p>
           </div>

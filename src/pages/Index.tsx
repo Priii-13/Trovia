@@ -77,7 +77,7 @@ const Index = () => {
               <a href="#treks" className="px-7 py-3.5 rounded-lg bg-primary-foreground text-primary font-medium text-sm hover:opacity-90 transition-opacity active:scale-[0.97]">
                 Browse All Treks
               </a>
-              <a href="mailto:hello@trailbharat.com" className="px-7 py-3.5 rounded-lg border border-primary-foreground/30 text-primary-foreground font-medium text-sm hover:bg-primary-foreground/10 transition-colors active:scale-[0.97]">
+              <a href="mailto:hello@trovia.com" className="px-7 py-3.5 rounded-lg border border-primary-foreground/30 text-primary-foreground font-medium text-sm hover:bg-primary-foreground/10 transition-colors active:scale-[0.97]">
                 Contact Us
               </a>
             </div>

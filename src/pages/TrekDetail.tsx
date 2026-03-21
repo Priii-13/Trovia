@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BookingModal from "@/components/BookingModal";
 import ScrollReveal from "@/components/ScrollReveal";
+import BeforeYouGo from "@/components/BeforeYouGo";
+import SpotsUrgency from "@/components/SpotsUrgency";
 import {
   Clock, MapPin, TrendingUp, Thermometer, Calendar, Mountain,
   Star, ChevronLeft, ChevronRight, ArrowLeft
